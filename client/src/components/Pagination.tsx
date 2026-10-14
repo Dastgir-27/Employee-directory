@@ -6,7 +6,7 @@ interface Props {
   disabled?: boolean;
   onPageChange: (page: number) => void;
 }
-
+ 
 export default function Pagination({
   page,
   totalPages,

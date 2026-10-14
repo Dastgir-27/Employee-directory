@@ -5,7 +5,7 @@ interface Props {
   onChange: (value: string) => void;
   onClear: () => void;
 }
-
+ 
 export default function SearchBar({ value, onChange, onClear }: Props) {
   const id = useId();
   const inputRef = useRef<HTMLInputElement>(null);

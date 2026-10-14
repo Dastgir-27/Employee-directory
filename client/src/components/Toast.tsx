@@ -4,7 +4,7 @@ interface Props {
   toasts: ToastItem[];
   onDismiss: (id: number) => void;
 }
-
+ 
 export default function ToastContainer({ toasts, onDismiss }: Props) {
   return (
     <div className="fixed inset-x-4 bottom-4 z-50 flex flex-col gap-2 sm:left-auto sm:w-96">
