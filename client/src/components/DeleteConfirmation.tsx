@@ -9,7 +9,7 @@ interface Props {
   onConfirm: () => void;
   onCancel: () => void;
 }
-
+ 
 export default function DeleteConfirmation({ employee, deleting, error, onConfirm, onCancel }: Props) {
   return (
     <Modal open={employee !== null} title="Delete employee" onClose={() => !deleting && onCancel()}>

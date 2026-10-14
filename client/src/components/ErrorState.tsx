@@ -2,7 +2,7 @@ interface Props {
   message: string;
   onRetry: () => void;
 }
-
+ 
 export default function ErrorState({ message, onRetry }: Props) {
   return (
     <div role="alert" className="px-6 py-16 text-center">

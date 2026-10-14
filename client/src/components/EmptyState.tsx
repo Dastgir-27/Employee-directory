@@ -3,7 +3,7 @@ interface Props {
   description: string;
   action?: { label: string; onClick: () => void };
 }
-
+ 
 export default function EmptyState({ title, description, action }: Props) {
   return (
     <div className="px-6 py-16 text-center">

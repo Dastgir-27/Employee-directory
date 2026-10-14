@@ -8,7 +8,7 @@ interface Props {
 }
 
 const HEADERS = ["ID", "Name", "Email", "Role", "Created At", "Actions"];
-
+ 
 export default function EmployeeTable({ employees, onEdit, onDelete }: Props) {
   return (
     <div className="overflow-x-auto">

@@ -13,7 +13,7 @@ interface Props {
   onSubmit: (values: EmployeeInput) => void;
   onCancel: () => void;
 }
-
+ 
 const FIELDS = [
   { name: "name", label: "Name", type: "text", maxLength: 100 },
   { name: "email", label: "Email", type: "email", maxLength: 254 },

@@ -13,7 +13,7 @@ import Modal from "./Modal";
 import Pagination from "./Pagination";
 import SearchBar from "./SearchBar";
 import ToastContainer from "./Toast";
-
+ 
 const PAGE_SIZE = 10;
 const SEARCH_DEBOUNCE_MS = 300;
 // A page number far past the end. The fetch effect moves back to the real last page.

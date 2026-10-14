@@ -7,7 +7,7 @@ interface Props {
   onClose: () => void;
   children: ReactNode;
 }
-
+ 
 // Uses the native <dialog> element: it traps focus, handles Esc and restores focus on close.
 export default function Modal({ open, title, onClose, children }: Props) {
   const ref = useRef<HTMLDialogElement>(null);
