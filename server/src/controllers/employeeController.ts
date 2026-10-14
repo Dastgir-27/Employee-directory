@@ -6,7 +6,7 @@ export const employeeController = {
     const result = await employeeService.list(res.locals.listQuery);
     res.status(200).json(result);
   },
-
+ 
   async create(req: Request, res: Response) {
     const employee = await employeeService.create(req.body);
     res.status(201).json({ message: "Employee created successfully", data: employee });
