@@ -1,5 +1,7 @@
 # Employee Directory Management System
 
+**GitHub Repository:** [Employee Directory](https://github.com/Dastgir-27/Employee-directory)
+
 A full-stack CRUD application for managing employee records.
 
 - **Frontend:** React 19, TypeScript, Vite, Tailwind CSS, Axios
